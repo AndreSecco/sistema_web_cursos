@@ -1,0 +1,26 @@
+.div-title-video {
+    text-align: left;
+    color: #fff;
+    padding: 3% 10%;
+
+}
+
+.description-video {
+    color: #fff;
+    padding: 3% 10%;
+    display: flex;
+    justify-self: center;
+    text-align: justify;
+}
+
+.div-title-video {
+    color: #fff;
+}
+
+.active {
+    background-color: #181d29!important;
+    // transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.01, 1.01, 1.01) !important;
+    border: none;
+    // padding: 3% 7%;
+    text-align: left;
+}

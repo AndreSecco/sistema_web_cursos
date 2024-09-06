@@ -1,0 +1,42 @@
+@import '@/assets/scss/main.scss';
+
+.menu-video {
+    margin-top: 100px;
+    padding: 3% 0%;
+    text-align: left;
+    color: #fff;
+    list-style: none;
+
+    button {
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn{
+        border: none!important;
+    }
+    .active {
+        background: #181d29;
+        // transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.01, 1.01, 1.01) !important;
+        border: none;
+        // padding: 3% 7%;
+        text-align: left;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+li {
+    padding: 10px 16px;
+    // background: #252d3f;
+    border-radius: 20px;   
+    margin: 15px 0px;
+    transition: 0.5s;
+}
+
+li:hover {
+    transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.04, 1.04, 1.04)!important;
+}
+

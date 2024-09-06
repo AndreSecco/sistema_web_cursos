@@ -1,0 +1,76 @@
+@import '@/assets/scss/main.scss';
+
+.subtitle {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.titulo-superior {
+    font-size: 20px;
+
+    @include text-degrade;
+    font-weight: 700;
+}
+
+.categories {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 98px 50px 82px 50px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 90%, rgba(193, 66, 8, 0) 100%);
+    margin-top: -101px;
+    align-items: end;
+    display: flex;
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+    z-index: 9;
+}
+
+.singleCategorie{
+    width: 100%;
+    padding: 20% 0px;
+    background: transparent;
+    // border: 1px solid #ccc;
+    // border-radius: 30px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.cardBackground{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.cardCte {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-cte.jpg);
+}
+
+.cardMdfe{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-mdfe.jpg);
+}
+
+.cardGinfo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-ginfo.png);
+}
+
+.cardGtrans {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-gtrans.jpg);
+}
+
+.cardPortal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-portal.png);
+}
+
+.cardOficina {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-oficina.png);
+}
+
+.cardBackground:hover{
+    height: 105%;
+    color: #fff;
+}

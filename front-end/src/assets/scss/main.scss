@@ -1,0 +1,44 @@
+@import '@/assets/scss/_colors.scss';
+
+.text-left {
+    text-align: left;
+}
+
+.palavras-coloridas{
+    color: $color-text;
+}
+
+.btn-adicionar{
+    @include button-default;
+}
+
+.btn-adicionar:hover {
+    transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.04, 1.04, 1.04);
+}
+
+.btn-editar-painel {
+    @include btn-editar-painel;
+}
+
+.btn-cancelar {
+    @include btn-cancelar;
+}
+
+.btn-cancelar:hover {
+    transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.04, 1.04, 1.04);
+
+}
+
+.btn-close-modal {
+    background: transparent!important;
+    border: none!important;
+    font-size: 17px!important;
+    color: #000;
+}
+
+
+.router-menu-video{
+
+    width: 100%!important;
+    text-align: left!important;
+}

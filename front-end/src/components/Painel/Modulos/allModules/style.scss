@@ -1,0 +1,108 @@
+@import '@/assets/scss/main.scss';
+
+.allModules {
+    height: 45vh;
+    padding: 140px 50px 82px 75px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 90%, rgba(193, 66, 8, 0) 100%);
+    margin-top: -86px;
+    padding-top: 180px;
+}
+
+.line-header {
+    align-items: center;
+}
+
+.active {
+    background-color: #181d29!important;
+    // transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.01, 1.01, 1.01) !important;
+    border: none;
+    // padding: 3% 7%;
+    text-align: left;
+    color: #fff!important;
+}
+
+.title-cursos {
+    color: #fff;
+}
+.titulo-superior {
+    font-size: 20px;
+
+    color: #fff!important;
+    @include text-degrade;
+    font-weight: 700;
+    text-align: left;
+}
+
+.title {
+    color: #fff;
+    padding: 3%;
+    border-radius: 9px;
+    width: 81px;
+    font-size: 12px;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    width: 100%!important;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.singleCategorie{
+    width: 100%;
+    padding: 20% 0px;
+    background: transparent;
+    // border: 1px solid #ccc;
+    // border-radius: 30px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.cardBackground{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.cardCte {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-cte.jpg);
+}
+
+.cardMdfe{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-mdfe.jpg);
+}
+
+.cardGinfo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-ginfo.png);
+}
+
+.cardGtrans {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-gtrans.jpg);
+}
+
+.cardPortal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-portal.png);
+}
+
+.cardOficina {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(@/assets/images/Categories/categorie-oficina.png);
+}
+
+.cardBackground:hover{
+    height: 105%;
+    color: #fff;
+}
+
+.router-menu-video {
+    width: 100px!important;
+    padding: 10px;
+}

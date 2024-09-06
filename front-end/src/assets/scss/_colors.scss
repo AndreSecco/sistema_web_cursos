@@ -1,0 +1,58 @@
+$degrade-verde: linear-gradient(90deg, #05F96F 0%, #17C0E9 100%);
+
+$background-principal-page: #0c0f16;
+
+$background-secondary-page: #11141b;
+
+$color-principal: #156f75;
+
+$color-secondary: #6ec165;
+
+$color-text: #05F96F;
+
+@mixin text-degrade {
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(90deg, #05F96F 0%, #17C0E9 100%);
+
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Alguns navegadores precisam do prefixo */
+
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin button-default {
+    background-image: $degrade-verde;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    border-radius: 30px 30px 30px 30px;
+    padding: 17px 50px 7px 50px;
+    border: none;
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+@mixin btn-editar-painel {
+    background: #11141b;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 4px 9px;
+    border-radius: 5px;
+}
+
+@mixin btn-cancelar {
+    background-image: linear-gradient(90deg, #920909 0%, #e91757 100%);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    display: inline-flex;
+    padding: 10px 40px;
+    transition: 0.5s;
+}

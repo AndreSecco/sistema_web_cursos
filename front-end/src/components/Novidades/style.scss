@@ -1,0 +1,127 @@
+@import '@/assets/scss/main.scss';
+
+.section-novidades{
+    margin: 0px;
+    background-color: $background-principal-page;
+    padding: 85px 100px 150px 100px;
+}
+
+.title-card-novidades {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.text-novidades {
+    color: #fff;
+    font-weight: 300;
+}
+.cardNovidadesIndividual {
+    background: #11141b;
+    border: 10px solid #0c0f16;
+    border-radius: 30px;
+    text-align: left;
+    padding: 3% 5%;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.cardNovidadesIndividual:hover{
+    background: #252c3b;
+    transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.04, 1.04, 1.04);
+}
+
+.btn-play-novidade {
+    color: #fff;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.btn-play-novidade:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+h1{
+    transition: 0.5s;
+}
+
+.cardNovidadesIndividual:hover
+.h1{
+    transition: 0.5s;
+
+    font-size: 45px;
+}
+
+
+.footer-card-novidades{
+    justify-content: center;
+}
+
+.cardnovidades:hover {
+    transform: perspective(3000px) rotateX(0deg) rotateY(0deg) scale3d(1.04, 1.04, 1.04);
+}
+
+.btn-novidades:hover {
+    background: #c1c1c114;
+}
+
+.bi-layers {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    color: #fff;
+}
+
+.cardnovidades:hover
+.bi-layers {
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+
+.title-novidades {
+    color: #fff;
+}
+.titulo-superior {
+    font-size: 20px;
+
+    color: #fff!important;
+    @include text-degrade;
+    font-weight: 700;
+    text-align: left;
+}
+
+.title {
+    color: #fff;
+    padding: 3%;
+    border-radius: 9px;
+    width: 81px;
+    font-size: 12px;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    width: 100%!important;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.cardGtrans {
+    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(@/assets/images/Categories/categorie-cte.jpg);
+}
+
+.btn-novidades {
+    color: #fff;
+    font-size: 15px;
+    padding: 4% 11%;
+}

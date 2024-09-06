@@ -1,0 +1,41 @@
+@import '@/assets/scss/main.scss';
+
+nav {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background: linear-gradient(180deg, black, transparent);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 25px;
+    transition: 0.5s;
+
+}
+
+a:hover {
+    color: #05F96F;
+}
+
+.img-logo {
+    max-width: 180px;
+}
+
+.nav-menu {
+    align-items: center;
+    margin: 0px!important;
+}
+
+.links-menu {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    color: #fff;
+}

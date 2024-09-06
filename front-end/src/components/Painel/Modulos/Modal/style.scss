@@ -1,0 +1,25 @@
+@import '@/assets/scss/main.scss';
+
+.btn-adicionar {
+    padding: 10px 40px;
+}
+
+.div-editar-curso {
+    padding: 0px 40px;
+}
+
+.input-cor {
+    padding: 0px!important;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+#dropdown-right__BV_toggle_ {
+    background: #11141b;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 4px 9px;
+    border-radius: 5px;
+}
